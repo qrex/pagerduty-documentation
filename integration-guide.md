@@ -14,7 +14,7 @@
 
 # Support
 
-If you need help with this integration, please contact ***hello@unitq.com***
+If you need help with this integration, please contact [hello@unitq.com](mailto:hello@unitq.com).
 
 # Integration Walkthrough
 ## In PagerDuty
@@ -40,10 +40,10 @@ You can have unitQ Monitor automatically open a PagerDuty incident when a unitQ 
 
 1. In the unitQ Monitor, click **Alerts** in the left-hand menu.
 1. To create a new alert, click **Create Alert**.
-   To edit an existing alert, select the alert, click the hamburger icon ![hamburger icon](hamburger_icon.png), then click **Edit**.
+   To edit an existing alert, select the alert, click the hamburger icon (&#9776;), then click **Edit**.
 1. Select the alert method, definition, and condition. To learn about creating an alert, read [Create Alerts](https://unitq.zendesk.com/hc/en-us/articles/360053232614-Create-Alerts).
 1. Click the **Notify Team** dropdown, then do one of the following:
-   1. To select an existing PagerDuty service, select in the dropdown.
+   1. To select an existing PagerDuty service, select it in the dropdown.
    1. To choose a different PagerDuty service, select **Add New PagerDuty Channel**. This opens the PagerDuty login page.
       1. Your browser redirects to PagerDuty. Log in to PagerDuty with your PagerDuty account credentials. 
       1. In the **Select Services** list, select the service or services you want to integrate with unitQ Monitor, then click **Connect**.
@@ -52,4 +52,6 @@ You can have unitQ Monitor automatically open a PagerDuty incident when a unitQ 
 
 # How to Uninstall
 
-***Add instructions here on how to uninstall your app (e.g. going to the profile page to revoke access vs. deleting the integration key or extension).***
+1. In PagerDuty, choose **Services** > **Service Directory**, select the unitQ Monitor service.
+1. Click **Integrations** tab.
+1. Click the gear icon, then click **Delete Integration**. Click **OK** to confirm.
